@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Symon — Personal Website</title>
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         NAVIGATION
+         ===================================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            SYMON
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#films">Films</a>
+
+            <a href="#photography">Photography</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================
+         PROFILE / HOME
+         ===================================== -->
+
+    <main>
+
+        <div
+            class="profile-card"
+            id="home"
+        >
+
+            <p class="hero-label">
+                A SMALL CORNER OF THE INTERNET
+            </p>
+
+
+            <h1>
+                You know me?
+            </h1>
+
+
+            <h2>
+                I'M SYMON
+            </h2>
+
+
+
+            <!-- =================================
+                 ABOUT
+                 ================================= -->
+
+            <section id="about">
+
+                <h2>
+                    What I do?
+                </h2>
+
+
+                <p>
+                    I read, watch films, write, travel and
+                    look for meaning in this absurd life.
+                </p>
+
+            </section>
+
+
+
+            <!-- =================================
+                 FAVOURITE FILMS
+                 ================================= -->
+
+            <section id="films">
+
+                <h2>
+                    My Favourite Films
+                </h2>
+
+
+                <ul>
+
+                    <li>
+                        City of God
+                    </li>
+
+                    <li>
+                        Dead Poets Society
+                    </li>
+
+                    <li>
+                        Birdman
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+
+            <!-- =================================
+                 FAVOURITE WEBSITE
+                 ================================= -->
+
+            <section>
+
+                <h2>
+                    My Favorite Website
+                </h2>
+
+
+                <a
+                    href="https://www.letterboxd.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Letterboxd
+                </a>
+
+            </section>
+
+
+
+            <!-- =================================
+                 PHOTOGRAPHY
+                 ================================= -->
+
+            <section id="photography">
+
+    <h2>My Photography</h2>
+
+    <img
+        src="PASTE-CODEPEN-ASSET-URL-HERE"
+        alt="Symon's photography"
+    >
+
+</section>
+            <!-- =================================
+                 SECRET BUTTON
+                 ================================= -->
+
+            <button
+                id="secretButton"
+                type="button"
+            >
+                Don't Open
+            </button>
+
+        </div>
+
+
+
+        <!-- =====================================
+             INTERESTS
+             ===================================== -->
+
+        <section
+            class="skills-section"
+            id="interests"
+        >
+
+            <p class="section-label">
+                A FEW THINGS I CARE ABOUT
+            </p>
+
+
+            <h2>
+                Want to Know More?
+            </h2>
+
+
+
+            <div class="container">
+
+
+                <!-- CARD 1 -->
+
+                <div
+                    class="card"
+                    data-number="1"
+                >
+
+                    <h3>
+                        World Cinema
+                    </h3>
+
+
+                    <p>
+                        Exploring world cinema since 2020
+                        to learn about different landscapes
+                        and cultures.
+                    </p>
+
+                </div>
+
+
+
+                <!-- CARD 2 -->
+
+                <div
+                    class="card"
+                    data-number="2"
+                >
+
+                    <h3>
+                        Literature
+                    </h3>
+
+
+                    <p>
+                        Reading various kinds of literature
+                        to learn about human emotions.
+                    </p>
+
+                </div>
+
+
+
+                <!-- CARD 3 -->
+
+                <div
+                    class="card"
+                    data-number="3"
+                >
+
+                    <h3>
+                        Travel
+                    </h3>
+
+
+                    <p>
+                        I don't travel that much,
+                        just to fill the space.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTACT
+             ===================================== -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="contact-content">
+
+
+                <p class="contact-label">
+                    GET IN TOUCH
+                </p>
+
+
+                <h2>
+                    Let's Talk.
+                </h2>
+
+
+                <p class="contact-intro">
+                    Have something to say, recommend a film,
+                    or just want to talk about life?
+                </p>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <form id="contactForm">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+
+                    <!-- SUBJECT -->
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What do you want to talk about?"
+                        >
+
+                    </div>
+
+
+
+                    <!-- MESSAGE -->
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write something..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+
+                    <!-- SUBMIT -->
+
+                    <button
+                        type="submit"
+                        class="submit-button"
+                    >
+                        Send Message
+                    </button>
+
+
+                    <!-- FORM MESSAGE -->
+
+                    <p
+                        id="formMessage"
+                        class="form-message"
+                    ></p>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================
+         FOOTER
+         ===================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 SYMON
+        </p>
+
+
+        <p>
+            Made while learning web development.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+<link rel="stylesheet" href="style.css">
